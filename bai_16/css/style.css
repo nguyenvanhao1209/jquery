@@ -1,0 +1,30 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.content{
+	width: 1170px;
+	margin: auto;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+.khoi-1{
+	height: 50px;
+	width: 50px;
+	background-color: red;
+}
+.khoi-2,.khoi-3,.khoi-4,.khoi-5{
+	height: 50px;
+	width: 50px;
+	background-color: blue;
+}
+.khoi-3{
+	background-color: black;
+}
+.khoi-4{
+	background-color: green;
+}
+.khoi-5{
+	background-color: orange;
+}
