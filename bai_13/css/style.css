@@ -1,0 +1,40 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ul.menu{
+	width: 800px;
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+ul.menu li{
+	list-style: none;
+	padding: 10px 12px;
+	font-size: 20px;
+	color: black;
+	background: white;
+	box-shadow: 2px 5px 5px rgb(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+.content{
+	width: 1200px;
+	margin: auto;
+}
+.content img{
+	width: 22%;
+	margin: 10px;
+}
+.title{
+	text-align: center;
+	padding: 10px 12px;
+	font-size: 36px;
+	color: #212121;
+}
+.hidden{
+	opacity: 0;
+	visibility: hidden;
+	display: none;
+}
